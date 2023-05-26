@@ -1,0 +1,52 @@
+*{
+    font-family: 'Open Sauce One',sans-serif;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: #f3f4f5;
+    height: 32px;
+    width: auto;
+    align-items: center;
+}
+
+.header-1{
+    color: rgba(49,53,59,0.68);
+    text-decoration: none;
+}
+
+/* a:hover{
+    color: #03ac0e;
+} */
+
+.header-1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgba(49,53,59,0.68);
+    
+}
+
+.header-1 i{
+    font-size: 20px;
+}
+
+.header-1 .icon{
+    font-size: 20px !important;
+    padding-right: 5px;
+}
+
+.header-2{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-2 a{
+    color: rgba(49,53,59,0.68);
+    text-decoration: none;
+    margin-left: 28px;
+    font-size: 12px;
+    line-height: 31px;
+}

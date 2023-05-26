@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+}
+.child-div{
+    height: 100px;
+    background-color: green;
+    color: yellow;
+    width: 100px;
+}
+
+.parent-div{
+    display: flex;
+    /* display flex (horizontal(kana kiri) Vertika(atas/bawah)) */
+    /* Justify-conten untuk horizontal(kanan-kiri) (flex-end, center, flex-start) */
+    /* Space beetween ujung ke ujung untuk mengatur jarak per div */
+    /* space-around diantara  */
+    /* space-evenly untuk meratakan jarak */
+    /* align-items untuk vertikal(atas bawah) */
+    justify-content: space-evenly;
+}
